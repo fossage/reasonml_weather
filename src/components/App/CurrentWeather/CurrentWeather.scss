@@ -1,0 +1,53 @@
+.min-max-text {
+  flex: 1;
+  color: #fff;
+  display: flex;
+  font-size: 0.9em;
+  margin-bottom: 0px;
+}
+
+.current-temp-text {
+  font-size: 68px;
+  color: #fff;
+  text-shadow: 1px 1px rgb(77, 77, 77);
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.current-weather-container {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.current-time-text {
+  color: rgb(255, 224, 122);
+}
+
+.city-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 18px;
+  min-width: 200px;
+}
+
+.city-container h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 5px;
+} 
+
+.city-container input {
+  border-radius: 5px;
+  font-size: 16px;
+  border: 0px;
+  margin-bottom: 5px;
+  padding-left: 8px;
+}
+
+.city-container button {
+  font-size: 12px;
+  border-radius: 5px;
+}
