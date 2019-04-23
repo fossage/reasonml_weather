@@ -9,8 +9,6 @@ let make = _ => {
 
   let handleCitySelected = city => updateSelectedCity(_ => city);
 
-  let date = Hooks.useUpdatingFormattedDate(10000);
-
   React.useEffect1(
     () => {
       let _ =

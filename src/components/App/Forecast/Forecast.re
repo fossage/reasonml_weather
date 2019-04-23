@@ -25,7 +25,11 @@ let make = (~forecast) =>
                      {formattedDate(item.dt) |> ReasonReact.string}
                    </h3>
                    <p className="weather-description">
-                     {ReasonReact.string(item.description)}
+                     {
+                       item.description
+                       |> String.capitalize
+                       |> ReasonReact.string
+                     }
                    </p>
                  </div>
                </div>

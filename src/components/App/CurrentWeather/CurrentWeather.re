@@ -40,7 +40,7 @@ let make = (~onChangeCity, ~currentWeatherData, ~selectedCity) => {
       }
     </div>
     <div className="city-container">
-      <h1> {ReasonReact.string(selectedCity)} </h1>
+      <h1> {selectedCity |> String.capitalize |> ReasonReact.string} </h1>
       <input
         type_="Text"
         placeholder="Enter City"
