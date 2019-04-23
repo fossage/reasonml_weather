@@ -2,7 +2,7 @@
 
 [@react.component]
 let make = (~onChangeCity, ~currentWeatherData, ~selectedCity) => {
-  let (cityText, updateCityText) = React.useState(() => "seattle");
+  let (cityText, updateCityText) = React.useState(() => "");
   let date = Hooks.useUpdatingFormattedDate(10000);
 
   let handleClick = _ => {
